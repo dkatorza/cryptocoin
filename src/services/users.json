@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "5a56640269f443a5d64b32ca",
+    "firstName": "Dan",
+    "lastName": "Katorza",
+    "email": "dk@gmail.com",
+    "password":"1234",
+    "phone": "+1 (968) 593-3824",
+    "coins":100,
+    "moves":[]
+  }
+]

@@ -1,0 +1,46 @@
+.contact-page-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-height: 380px;
+    min-height: 380px;
+
+    & > h3 {
+        font-weight: 600;
+    }
+
+    .contact-add-btn {
+        width: 55px;
+        height: 55px;
+        background-color: $clr5;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: rem(24px);
+        position: absolute;
+        z-index: 10;
+        right: 10px;
+        bottom: 15px;
+
+        &:hover {
+            background-color: $clr2;
+        }
+    }
+    .scroller {
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 3px;
+            margin-bottom: 2px;
+            background-color: $clr2;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 2px;
+            background-color: $clr5;
+        }
+    }
+}

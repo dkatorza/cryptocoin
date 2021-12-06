@@ -1,0 +1,18 @@
+.news-preview-list{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    font-size: rem(12px);
+    &:hover{
+        background-color:$clr1;
+    }
+    .news-preview-img{
+        min-width: 85px;
+        height: 60px;
+        padding-right: 0.5rem;
+
+    }
+    
+}

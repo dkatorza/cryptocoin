@@ -1,0 +1,53 @@
+
+    .greeting-avatar-container {
+        display: flex;
+        justify-content: center;
+
+        .greeting-avatar {
+            width: 55px;
+            height: 55px;
+            background-color: $clr5;
+            font-weight: 600;
+            font-size: rem(20px);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .greeting-name {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        & > span {
+            font-family: Montserrat;
+            font-weight: 600;
+        }
+    }
+
+    .greeting-funds-section {
+        padding-top: 0.5rem;
+        font-family: Montserrat;
+        font-weight: 600;
+
+        .greeting-funds {
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            & > span {
+                color: $clr5;
+            }
+        }
+        .greeting-btc {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            & > span {
+                color: $clr2;
+            }
+        }
+    }
+
