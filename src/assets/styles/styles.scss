@@ -1,0 +1,34 @@
+// Setup
+@import "./setup/variables.scss";
+@import "./setup/functions.scss";
+@import "./setup/mixins.scss";
+@import "./setup/typography.scss";
+
+// Basics
+@import "./basics/helpers.scss";
+@import "./basics/layout.scss";
+@import "./basics/base.scss";
+@import "./basics/buttons.scss";
+@import "./basics/loader.scss";
+
+// // Pages
+@import "./pages/login.scss";
+@import "./pages/home.scss";
+@import "./pages/dashboard.scss";
+@import "./pages/greeting.scss";
+@import "./pages/charts.scss";
+@import "./pages/contact-page.scss";
+@import "./pages/contact-edit.scss";
+@import "./pages/news-page.scss";
+
+// // Components
+@import "./cmps/header.scss";
+@import "./cmps/control-panel.scss";
+@import "./cmps/contact-preview.scss";
+@import "./cmps/contact-list.scss";
+@import "./cmps/contact-details.scss";
+@import "./cmps/move-preview.scss";
+@import "./cmps/move-list.scss";
+@import "./cmps/news-list.scss";
+@import "./cmps/news-preview.scss";
+@import "./cmps/footer.scss";

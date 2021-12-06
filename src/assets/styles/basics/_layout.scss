@@ -1,0 +1,41 @@
+.app-general{
+    background-color:$clr1;
+    height: calc(100vh);
+}
+
+// .main-container {
+    
+//     display: flex;
+//     margin-right: 2rem;
+//     flex-direction: column;
+//     height: 85vh;
+//     margin-left: 0.5rem;
+    
+
+//     & > h2 {
+//         font-family: 'Montserrat', sans-serif;
+//         color: $clr3;
+//         font-size: rem(18px);
+//     }
+
+//     @include for-narrow-layout {
+//         grid-template-columns:
+//             1fr
+//             minmax(auto, $mobile-breakpoint)
+//             1fr;
+//     }
+
+//     @include for-normal-layout {
+//         grid-template-columns:
+//             1fr
+//             minmax(auto, $narrow-breakpoint)
+//             1fr;
+//     }
+
+//     @include for-wide-layout {
+//         grid-template-columns:
+//             1fr
+//             minmax(auto, $normal-breakpoint)
+//             1fr;
+//     }
+// }

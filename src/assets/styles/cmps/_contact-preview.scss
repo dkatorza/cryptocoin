@@ -1,0 +1,10 @@
+.contact-preview{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+
+    & > small {
+        color: $clr2;
+    }
+
+}

@@ -1,0 +1,39 @@
+.contact-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .navigate-btn-wrapper {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-self: flex-start;
+        margin-left: 7px;
+
+    }
+
+    & > h3 {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    & > form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & input {
+            margin-bottom: 0.5rem;
+            padding: 15px;
+        }
+
+        .contact-edit-ctrl-btns {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+    
+}

@@ -1,0 +1,43 @@
+.header-main {
+    max-height: 200px;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .header-main-logo-img {
+        width: 350px;
+        height: 60px;
+        .logo-sm {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    nav {
+        margin: 1.5rem 0 0 0;
+        position: relative;
+        display: flex;
+        font-weight: 600;
+        width: 100%;
+        justify-content: center;
+
+        .nav-btn-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: $clr4;
+            border-radius: 8px;
+            border: 1px solid;
+            border-color: $clr2;
+            margin-inline-end: 5px;
+
+            &:hover{
+                background-color: $clr2;
+            }
+        }
+
+    }
+}

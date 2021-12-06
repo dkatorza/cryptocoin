@@ -1,0 +1,56 @@
+// Font Sizes
+.fs12 { font-size: rem(12px); }
+.fs13 { font-size: rem(13px); }
+.fs14 { font-size: rem(14px); }
+.fs15 { font-size: rem(15px); }
+.fs18 { font-size: rem(18px); }
+.fs20 { font-size: rem(20px); }
+.fs24 { font-size: rem(24px); }
+.fs28 { font-size: rem(28px); }
+.fs30 { font-size: rem(30px); }
+.fs32 { font-size: rem(32px); }
+.fs34 { font-size: rem(34px); }
+.fs36 { font-size: rem(36px); }
+.fs48 { font-size: rem(48px); }
+
+//Text Colors
+
+.text-clr2{
+    color: $clr2;
+}
+.text-clr4{
+    color: $clr5;
+}
+
+// flex helpers
+
+.flex {
+
+    display: flex;
+
+    > *.full {
+        flex: 1;
+    }
+    &.column {
+        flex-direction: column;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+}
+
+.position{
+    
+    &.relative {
+        position: relative
+    }
+    &.absolute {
+        position: absolute      
+    }
+
+    
+}
+
