@@ -1,4 +1,4 @@
-
+require('dotenv').config()
 import axios from "axios";
 
 export default {
@@ -20,7 +20,7 @@ async function getCryptoNews() {
         url: 'https://latest-crypto-news.p.rapidapi.com/newsbtc/crypto/latest',
         headers: {
             'x-rapidapi-host': 'latest-crypto-news.p.rapidapi.com',
-            'x-rapidapi-key': 'xxx'
+            'x-rapidapi-key': process.env.NEWS_CRYPTO_KEY
         }
     };
 
