@@ -1,4 +1,3 @@
-require('dotenv').config()
 import axios from "axios";
 
 export default {
@@ -14,13 +13,14 @@ function setSocket() {
 
 
 async function getCryptoNews() {
+    console.log(process.env.NEWS_CRYPTO_RAPID_API_KEY);
 
     var options = {
         method: 'GET',
         url: 'https://latest-crypto-news.p.rapidapi.com/newsbtc/crypto/latest',
         headers: {
             'x-rapidapi-host': 'latest-crypto-news.p.rapidapi.com',
-            'x-rapidapi-key': process.env.NEWS_CRYPTO_KEY
+            'x-rapidapi-key': process.env.VUE_APP_NEWS_CRYPTO_RAPID_API_KEY
         }
     };
 
