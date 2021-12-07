@@ -3,7 +3,7 @@
 
 ## About
 
-cryptCoin is a digital wallet mockup for crypto coins. 
+cryptoCoin is a digital wallet mockup for crypto coins. 
 
 Built for educational purposes using Vue.js and vuex.
 Currently the data stored in local storage with future plans to connect a backend using express and MongoDB. 
