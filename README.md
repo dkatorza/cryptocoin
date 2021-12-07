@@ -55,35 +55,38 @@ For the news I used Rapid api.
 
 <h3>Live presentation</h3>
 
+https://user-images.githubusercontent.com/76620273/144990739-66fad3af-acfd-4435-8f05-0dc3fa5c4e32.mp4
 
 
-<!-- <h3>Login</h3>
-<img src="https://i.im.ge/2021/12/06/oWDe1Y.png" alt="oWDe1Y.png"/>
+<h3>Login</h3>
+<img src="https://i.im.ge/2021/12/07/oW5Hfa.png" alt="oWIQZ4.png"/>
 
 <h3>Signup</h3>
-<img src="https://i.im.ge/2021/12/06/oWIoXC.png" alt="oWIoXC.png"/>
+<img src="https://i.im.ge/2021/12/07/oW5zNx.png" alt="oWIQZ4.png"/>
 
 <h3>Greeting</h3>
-<img src="https://i.im.ge/2021/12/06/oWIQZ4.png" alt="oWIQZ4.png"/>
+<img src="https://i.im.ge/2021/12/07/oW5ZIT.png" alt="oWIQZ4.png"/>
 
 <h3>Contacts list</h3>
-<img src="https://i.im.ge/2021/12/06/oWI1pm.png" alt="oWI1pm.png"/>
+<img src="https://i.im.ge/2021/12/07/oW5g5r.png" alt="oWIQZ4.png"/>
 
 <h3>Contact details</h3>
-<img src="https://i.im.ge/2021/12/06/oWIMwD.png" alt="oWIMwD.png"/>
+<img src="https://i.im.ge/2021/12/07/oW58gW.png" alt="oWIQZ4.png"/>
+
+<h3>Contact filter</h3>
+<img src="https://i.im.ge/2021/12/07/oW5YVf.png" alt="oWIQZ4.png"/>
 
 <h3>Contact edit</h3>
-<img src="https://i.im.ge/2021/12/06/oWDBpM.png" alt="oWDBpM.png"/>
+<img src="https://i.im.ge/2021/12/07/oW5crm.png" alt="oWIQZ4.png"/>
 
 <h3>Contact add</h3>
-<img src="https://i.im.ge/2021/12/06/oWIlbp.png" alt="oWIlbp.png"/>
+<img src="https://i.im.ge/2021/12/07/oW5WM0.png" alt="oWIQZ4.png"/>
 
 <h3>Live chart</h3>
-<img src="https://i.im.ge/2021/12/06/oWIXiq.png" alt="oWIXiq.png"/> -->
+<img src="https://i.im.ge/2021/12/07/oW5KEc.png" alt="oWIQZ4.png"/>
 
-<!-- <h3>Live News</h3>
-<img src="https://i.im.ge/2021/12/06/oWIXiq.png" alt="oWIXiq.png"/> --> -->
-
+<h3>Live News</h3>
+<img src="https://i.im.ge/2021/12/07/oW5kSG.png" alt="oWIQZ4.png"/>
 
 ## Project setup
 ```
@@ -99,5 +102,15 @@ npm run serve
 ```
 npm run build
 ```
+
+
+
+
+
+
+
+
+
+
 
 
