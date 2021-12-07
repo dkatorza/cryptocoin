@@ -10,24 +10,18 @@
         /></span>
       </template>
       <router-view />
-      <control-panel />
+      <ControlPanel />
     </section>
   </div>
 </template>
 
 <script>
-import contactPage from "@/views/contact-page";
-import greeting from "./greeting.vue";
 import ControlPanel from "../components/control-panel.vue";
-import ContactDetails from "../views/contact-details.vue";
 import LiveStatus from "../components/live-status.vue";
 
 export default {
   components: {
-    greeting,
-    contactPage,
     ControlPanel,
-    ContactDetails,
     LiveStatus,
   },
   data() {
