@@ -1,7 +1,7 @@
 <template>
   <section class="login position relative">
     <form class="login-form" @submit.prevent="sendCreds(creds)">
-      <h3 v-if="!displaySignup">{{logText}}</h3>
+      <h3 v-if="!displaySignup">{{ logText }}</h3>
       <h3 v-else>Sign up</h3>
       <input
         class="input-general"
@@ -33,11 +33,18 @@
         placeholder="Password"
         required
       />
-      <button type="submit" >{{logText}}</button>
+      <button type="submit">{{ logText }}</button>
       <span v-if="!displaySignup">Not a member yet? </span>
-      <span v-if="!displaySignup" class="login-form-signup" @click="showSignup">Sign up now</span>
+      <span v-if="!displaySignup" class="login-form-signup" @click="showSignup"
+        >Sign up now</span
+      >
       <span v-if="displaySignup">Already a member? </span>
-      <span v-if="displaySignup" class="login-form-signup" @click="showSignup">Login now</span>
+      <span v-if="displaySignup" class="login-form-signup" @click="showSignup"
+        >Login now</span
+      >
+      <span v-if="!displaySignup" class="login-form-guest" @click="logAsGuest"
+        >Continue as guest!</span
+      >
     </form>
   </section>
 </template>
@@ -53,7 +60,7 @@ export default {
         lastName: null,
       },
       displaySignup: false,
-      logText:'Login'
+      logText: "Login",
     };
   },
 
@@ -69,12 +76,10 @@ export default {
       await this.$store.dispatch({ type: "logout" });
       this.$router.push("/");
     },
-    sendCreds(creds){
-      console.log('hhh',creds);
-      if(this.displaySignup ){
-        this.Signup(creds)
-      }
-      else this.login(creds)
+    sendCreds(creds) {
+      if (this.displaySignup) {
+        this.Signup(creds);
+      } else this.login(creds);
     },
     async login(creds) {
       await this.$store.dispatch({ type: "login", creds });
@@ -87,11 +92,17 @@ export default {
 
     showSignup() {
       this.displaySignup = !this.displaySignup;
-      if (!this.displaySignup) return this.logText='Login'
-      else return this.logText='Sign up'
+      if (!this.displaySignup) return (this.logText = "Login");
+      else return (this.logText = "Sign up");
     },
 
-
+    logAsGuest() {
+      this.creds = {
+        email: 'dk@gmail.com',
+        password: '1234',
+      };
+      this.login(this.creds);
+    },
   },
   computed: {
     loggedInUser() {
