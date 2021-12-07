@@ -21,7 +21,7 @@ For the news I used Rapid api.
 
 ## Main goals for cryptoCoin are: 
 1. Adding more features to the app
-   - Serving more the one coin ( currntly only bitcoin).
+   - Serving more then one coin ( currently only bitcoin).
    - Chart data filtered by type of coin. 
    - Adding live candle chart. 
    - Adding dashboard view. 
